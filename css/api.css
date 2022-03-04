@@ -1,0 +1,25 @@
+/* Variables */
+/* API page styles */
+.block-17 img {
+  width: 370px; }
+
+.block-17 .hljs {
+  background: #F7F7FA;
+  border-radius: 10px;
+  padding: 15px 20px; }
+  .block-17 .hljs .hljs-title {
+    color: #5F62E2;
+    font-weight: 400; }
+  .block-17 .hljs .hljs-comment {
+    color: #2AB691; }
+
+.block-17 .hljs-ln-numbers {
+  color: rgba(0, 0, 0, 0.3); }
+
+@media (max-width: 991.98px) {
+  .block-17 input[type='text'].search {
+    width: 100% !important; } }
+
+@media (max-width: 767.98px) {
+  .block-17 img {
+    width: 100%; } }

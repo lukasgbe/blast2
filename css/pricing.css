@@ -1,0 +1,43 @@
+/* Variables */
+/* Pricing page styles */
+.block-9 .pricing-options input[type='checkbox'] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0 !important;
+  padding: 3px;
+  width: 54px;
+  height: 30px;
+  border-radius: 30px;
+  background: #2AB691;
+  cursor: pointer; }
+  .block-9 .pricing-options input[type='checkbox']:after {
+    content: '';
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background: #ffffff;
+    display: block;
+    -webkit-transition: all 0.3s cubic-bezier(0.2, 0.85, 0.32, 1.2);
+    -o-transition: all 0.3s cubic-bezier(0.2, 0.85, 0.32, 1.2);
+    transition: all 0.3s cubic-bezier(0.2, 0.85, 0.32, 1.2); }
+  .block-9 .pricing-options input[type='checkbox']:checked:after {
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%); }
+
+.block-9 .pricing-options .pricing-block .inner {
+  border: 1.5px solid rgba(0, 0, 0, 0.05);
+  border-radius: 10px; }
+
+.block-9 .pricing-options.yearly .pricing-block.yearly {
+  display: block; }
+
+.block-9 .pricing-options.yearly .pricing-block.monthly {
+  display: none; }
+
+.block-9 .pricing-options.monthly .pricing-block.monthly {
+  display: block; }
+
+.block-9 .pricing-options.monthly .pricing-block.yearly {
+  display: none; }

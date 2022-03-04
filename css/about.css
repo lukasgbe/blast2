@@ -1,0 +1,24 @@
+/* Variables */
+/* About page styles */
+.block-20 {
+  overflow: hidden; }
+  .block-20 .video-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    -ms-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+    height: 80px;
+    width: 80px;
+    background: #000000;
+    border-radius: 50%; }
+
+.block-21 .block-21-header {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 70px;
+  letter-spacing: -2px; }
+
+.block-22 .client-block {
+  height: 210px; }

@@ -1,0 +1,36 @@
+/* Variables */
+/* Main page styles */
+.block-3 img {
+  max-width: 100%; }
+
+.block-3 .slider-1 .slick-list {
+  padding-left: 20px !important; }
+
+.block-3 .slider-1 .slick-slide {
+  opacity: 0; }
+  .block-3 .slider-1 .slick-slide.slick-current, .block-3 .slider-1 .slick-slide.slick-active {
+    opacity: 1; }
+
+.block-3 .slider-1 h2 {
+  text-indent: -20px; }
+
+.block-3 .slider-1-menu a svg {
+  opacity: 0.3; }
+
+.block-3 .slider-1-menu a.active svg {
+  opacity: 1; }
+
+@media (max-width: 767.98px) {
+  .block-3 .slider-1 h2 {
+    text-indent: 0px; } }
+
+.block-4 img {
+  max-width: 100%; }
+
+.block-4 .img-container .video-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  -ms-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%); }

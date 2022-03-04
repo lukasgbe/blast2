@@ -1,0 +1,40 @@
+/* Variables */
+/* Sign In page styles */
+.block-26 form {
+  /* 		input[type='text']{
+			border: 1.5px solid $grey-dark-1; 
+			background: $white;
+			padding-left: 16px;
+		} */
+  /* 		.js-show-password{
+			input[type='password']{
+				border: 1.5px solid $grey-dark-1; 
+				background: $white;
+				padding-left: 16px;
+				font: 400 18px $font-first;
+				outline: -webkit-focus-ring-color auto 0px;	
+				background: $white;
+				border-radius: 10px;
+				height: 50px; 
+				font-size: 18px;
+				line-height: 50px;
+				color: $grey-dark-3;
+				appearance: none;
+				max-width: 100%; 
+			}		
+			.show_password{ 
+				position: absolute;
+				right: 16px;
+				top: 16px;
+				cursor: pointer;
+				svg{			
+					fill: $grey-dark-3;
+				}
+				&.opened{   
+					svg{
+						fill: $accent-indigo-4;
+					}
+				} 
+			}			
+			
+		} */ }
