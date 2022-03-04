@@ -1,0 +1,40 @@
+@import "variables.scss";
+
+/* Contacts page styles */
+
+.block-25{
+	.GoogleMap{
+		height: 38.3vw;
+		max-height: 615px;
+	}
+	.formContainer{
+		.contactForm{
+			width: 425px;
+			position: absolute;
+			top:50%;
+			left:0;
+			transform: translateY(-50%); 
+			z-index:1;
+		}
+	}
+	@media(max-width: 991.98px){
+		.GoogleMap{
+			height: 50vw;
+			max-height: 100%;
+		}		
+		.formContainer{
+			.contactForm{
+				width: 100%;
+				position: relative;
+				top:auto;
+				left:auto;
+				transform: translateY(0%); 
+			}
+		}
+	}
+	@media(max-width: 767.98px){
+		.GoogleMap{
+			height: 100vw;
+		}		
+	}	
+}
