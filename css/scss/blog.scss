@@ -1,0 +1,42 @@
+@import "variables.scss";
+
+/* Blog page styles */
+
+.block-13{
+	@media(max-width: 991.98px){
+		img{
+			height: 155px !important;
+			width: 155px !important;
+		}
+	}
+}
+
+.block-14{
+	.slider-3{
+		.slick-slide{
+			width: 630px;
+			margin-right: 30px;
+		}
+	}
+	@media(max-width: 1399.98px){
+		.slider-3{
+			.slick-slide{
+				width: 540px;
+			}
+		}		
+	}
+	@media(max-width: 1199.98px){
+		.slider-3{
+			.slick-slide{
+				width: 450px;
+			}
+		}		
+	}
+	@media(max-width: 991.98px){
+		.slider-3{
+			.slick-slide{
+				margin-right: 0px;
+			}
+		}		
+	}	
+}

@@ -1,0 +1,36 @@
+@import "variables.scss";
+
+/* API page styles */
+
+.block-17{
+	img{
+		width: 370px;
+	} 
+	.hljs{
+		background: #F7F7FA;
+		border-radius: 10px;
+		padding: 15px 20px;
+		.hljs-title{
+			color: $accent-indigo-4;
+			font-weight: 400;
+		}
+		.hljs-comment{
+			color: $accent-green-4;
+		}
+	}
+	.hljs-ln-numbers{
+		color: $grey-dark-3;
+	}
+	@media(max-width: 991.98px){
+		input[type='text']{
+			&.search{
+				width: 100% !important;
+			}
+		}
+	}
+	@media(max-width: 767.98px){
+		img{
+			width: 100%;
+		}
+	}
+}
